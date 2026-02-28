@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Gian Carlo Sena</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              accent: '#8b5cf6',
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-zinc-950 text-zinc-100 antialiased">
+    <header class="sticky top-0 z-50 border-b border-zinc-800/70 bg-zinc-950/80 backdrop-blur">
+      <nav class="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <a href="#hero" class="text-lg font-semibold tracking-wide text-zinc-100">Gian Carlo Sena.</a>
+
+        <div class="flex items-center gap-4">
+          <button id="langToggle" class="text-sm font-bold text-zinc-400 hover:text-accent transition-colors">
+            ENGLISH
+          </button>
+
+          <button
+            id="menuBtn"
+            class="inline-flex items-center justify-center rounded-md border border-zinc-700 px-3 py-2 text-sm text-zinc-200 transition hover:border-accent hover:text-accent md:hidden"
+            aria-expanded="false"
+            aria-controls="mobileMenu"
+            aria-label="Abrir menú"
+            data-i18n="menuBtn"
+          >
+            Menú
+          </button>
+
+          <ul class="hidden items-center gap-8 text-sm font-medium md:flex">
+            <li><a class="nav-link hover:text-accent" href="#proyectos" data-i18n="navProjects">Proyectos</a></li>
+            <li><a class="nav-link hover:text-accent" href="#sobre-mi" data-i18n="navAbout">Sobre mí</a></li>
+            <li><a class="nav-link hover:text-accent" href="#contacto" data-i18n="navContact">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="mobileMenu" class="hidden border-t border-zinc-800 bg-zinc-900/95 md:hidden">
+        <ul class="mx-auto flex w-full max-w-6xl flex-col px-4 py-3 text-sm sm:px-6 lg:px-8">
+          <li><a class="mobile-link block rounded px-2 py-2 hover:bg-zinc-800 hover:text-accent" href="#proyectos" data-i18n="navProjects">Proyectos</a></li>
+          <li><a class="mobile-link block rounded px-2 py-2 hover:bg-zinc-800 hover:text-accent" href="#sobre-mi" data-i18n="navAbout">Sobre mí</a></li>
+          <li><a class="mobile-link block rounded px-2 py-2 hover:bg-zinc-800 hover:text-accent" href="#contacto" data-i18n="navContact">Contacto</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="mx-auto flex min-h-[70vh] w-full max-w-6xl flex-col justify-center px-4 py-20 sm:px-6 lg:px-8">
+        <p class="mb-3 text-sm uppercase tracking-[0.2em] text-zinc-400" data-i18n="heroSubtitle">Portfolio Personal</p>
+        <h1 class="text-4xl font-bold leading-tight sm:text-6xl lg:text-7xl">
+          <span class="hero-gradient">Gian Carlo Sena</span>
+        </h1>
+        <p class="mt-6 max-w-2xl text-base text-zinc-300 sm:text-lg" data-i18n="heroDesc">
+          Especialista en datos con enfoque en análisis, ingeniería y ciencia de datos. 
+          Transformo datos en conocimiento, desarrollando soluciones que permiten comprender, 
+          optimizar y anticipar fenómenos reales a partir de la información.
+        </p>
+      </section>
+
+      <section id="proyectos" class="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="mb-8 flex items-center justify-between">
+          <h2 class="text-2xl font-semibold sm:text-3xl" data-i18n="titleProjects">Proyectos</h2>
+          <span class="h-px w-16 bg-accent/60"></span>
+        </div>
+
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="project-card flex flex-col rounded-xl border border-zinc-800 bg-zinc-900/70 p-6">
+            <img src="proyecto 1.png" alt="Vista previa del Proyecto 01" class="mb-4 h-48 w-full rounded-lg object-cover">
+            <h3 class="text-lg font-semibold" data-i18n="proj1Title">Análisis de la producción de Yerba Mate (1970-2024)</h3>
+            <p class="mt-3 text-sm text-zinc-400 flex-grow" data-i18n="proj1Desc">
+              54 años de producción de yerba mate en Argentina: análisis, anomalías y predicciones hasta 2030
+            </p>
+            <a href="https://github.com/giansena/yerba-mate-analysis.git" target="_blank" rel="noopener noreferrer" class="mt-5 inline-flex items-center text-sm font-medium text-zinc-300 transition-colors hover:text-white">
+              <span data-i18n="btnView">Ver proyecto</span> <span class="ml-1">&rarr;</span>
+            </a>
+          </article>
+
+          <article class="project-card flex flex-col rounded-xl border border-zinc-800 bg-zinc-900/70 p-6">
+            <img src="proyecto 2.png" alt="Vista previa del Proyecto 02" class="mb-4 h-48 w-full rounded-lg object-cover">
+            <h3 class="text-lg font-semibold" data-i18n="proj2Title">Análisis del mercado aéreo argentino (2019-2025)</h3>
+            <p class="mt-3 text-sm text-zinc-400 flex-grow" data-i18n="proj2Desc">
+              De la Crisis Sanitaria al Shock Energético: Por qué la aviación argentina tardó 5 años en despegar
+            </p>
+            <a href="https://github.com/giansena/argentina-aviation-recovery-analysis.git" target="_blank" rel="noopener noreferrer" class="mt-5 inline-flex items-center text-sm font-medium text-zinc-300 transition-colors hover:text-white">
+              <span data-i18n="btnView">Ver proyecto</span> <span class="ml-1">&rarr;</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 class="text-2xl font-semibold sm:text-3xl" data-i18n="titleAbout">Sobre mí</h2>
+        <p class="mt-4 max-w-3xl text-zinc-300 leading-relaxed" data-i18n="aboutText">
+          Soy un profesional en datos con formación orientada al desarrollo de soluciones basadas en información. 
+          Mi trabajo se centra en el procesamiento, estructuración y análisis de datos para descubrir patrones, 
+          explicar comportamientos y generar proyecciones confiables. 
+          Tengo experiencia construyendo pipelines, realizando análisis exploratorio 
+          y desarrollando modelos que convierten datos crudos en resultados claros y útiles. 
+          Me caracterizo por un enfoque riguroso, pensamiento crítico y una fuerte orientación 
+          a la resolución de problemas mediante el uso inteligente de los datos.
+        </p>
+      </section>
+
+      <section id="contacto" class="mx-auto w-full max-w-6xl px-4 pb-20 pt-16 sm:px-6 lg:px-8">
+        <h2 class="text-2xl font-semibold sm:text-3xl" data-i18n="titleContact">Contacto</h2>
+        <p class="mt-4 text-zinc-300">
+          <span data-i18n="contactText">¿Quieres contactarme? Escríbeme a</span>
+          <a class="text-accent hover:underline ml-1" href="mailto:sena.gian25@gmail.com">sena.gian25@gmail.com</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer class="border-t border-zinc-800 py-8">
+      <div class="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-3 px-4 text-sm text-zinc-400 sm:flex-row sm:px-6 lg:px-8">
+        <p>© <span id="year"></span> <span data-i18n="footerRights">Gian Carlo Sena. Todos los derechos reservados.</span></p>
+        <div class="flex items-center gap-5">
+          <a class="hover:text-accent" href="https://github.com/giansena" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="hover:text-accent" href="https://www.linkedin.com/in/gian-carlo-sena" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

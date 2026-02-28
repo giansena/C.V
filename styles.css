@@ -1,0 +1,32 @@
+/*
+  Estilos complementarios para microinteracciones y tema oscuro.
+  Tailwind cubre el layout principal; aquí añadimos detalles de acabado.
+*/
+
+:root {
+  color-scheme: dark;
+}
+
+/* Gradiente vibrante para el título principal */
+.hero-gradient {
+  background: linear-gradient(90deg, #ffffff 0%, #c4b5fd 45%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Tarjetas con elevación suave al hover */
+.project-card {
+  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(139, 92, 246, 0.55);
+  box-shadow: 0 14px 35px rgba(139, 92, 246, 0.2);
+}
+
+/* Mejor legibilidad de enlaces del menú */
+.nav-link {
+  transition: color 180ms ease;
+}
