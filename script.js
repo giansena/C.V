@@ -9,7 +9,11 @@ const translations = {
     heroDesc: "Especialista en datos con enfoque en análisis, ingeniería y ciencia de datos. Transformo datos en conocimiento, desarrollando soluciones que permiten comprender, optimizar y anticipar fenómenos reales a partir de la información.",
     titleProjects: "Proyectos",
     
-    // Proyecto 5 (NUEVO)
+    // Proyecto 6 (NUEVO)
+    proj6Title: "Azure Data Factory - Azure Databricks",
+    proj6Desc: "Arquitectura Data Lakehouse: Pipeline de Ingesta y Procesamiento de Datos de Retail con Azure y PySpark",
+
+    // Proyecto 5 
     proj5Title: "Azure Real-Time Monitoring Data",
     proj5Desc: "Pipeline de Ingesta y Procesamiento de Telemetría IoT en Tiempo Real con Azure Stream Analytics y IoT Hub.",
     
@@ -44,6 +48,9 @@ const translations = {
     heroSubtitle: "Personal Portfolio",
     heroDesc: "Data specialist focused on data analysis, engineering, and data science. I transform data into knowledge, developing solutions to understand, optimize, and anticipate real-world phenomena through information.",
     titleProjects: "Projects",
+
+    proj6Title: "Azure Data Factory - Azure Databricks",
+    proj6Desc: "Data Lakehouse Architecture: Retail Data Ingestion and Processing Pipeline using Azure and PySpark",
     
     // Proyecto 5 (NUEVO)
     proj5Title: "Azure Real-Time Monitoring Data",
