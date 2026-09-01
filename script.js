@@ -9,31 +9,17 @@ const translations = {
     heroDesc: "Especialista en datos con enfoque en análisis, ingeniería y ciencia de datos. Transformo datos en conocimiento, desarrollando soluciones que permiten comprender, optimizar y anticipar fenómenos reales a partir de la información.",
     titleProjects: "Proyectos",
     
-    // Proyecto 6 (NUEVO)
+    // Proyecto Azure
     proj6Title: "Azure Data Factory - Azure Databricks",
     proj6Desc: "Arquitectura Data Lakehouse: Pipeline de Ingesta y Procesamiento de Datos de Retail con Azure y PySpark",
 
-    // Proyecto 5 
-    proj5Title: "Azure Real-Time Monitoring Data",
-    proj5Desc: "Pipeline de Ingesta y Procesamiento de Telemetría IoT en Tiempo Real con Azure Stream Analytics y IoT Hub.",
-    
-    // Proyecto 1
-    proj1Title: "Análisis de la producción de Yerba Mate (1970-2024)",
-    proj1Desc: "54 años de producción de yerba mate en Argentina: análisis, anomalías y predicciones hasta 2030.",
-    
-    // Proyecto 2
-    proj2Title: "Análisis del mercado aéreo argentino (2019-2025)",
-    proj2Desc: "De la Crisis Sanitaria al Shock Energético: Por qué la aviación argentina tardó 5 años en despegar.",
-    
-    // Proyecto 3
-    proj3Title: "Data Warehouse y Analítica de Aerolíneas",
-    proj3Desc: "Construcción de un data warehouse en SQL y dashboards en Power BI a partir de datos ficticios.",
-    
-    // Proyecto 4
-    proj4Title: "Pipeline de Datos en Tiempo Real",
-    proj4Desc: "Pipeline que consume datos meteorológicos en tiempo real, los procesa con Python y los almacena en MySQL.",
-    
+    // Nuevo Proyecto Local Merchants
+    newProjTitle: "Local Merchants Data Pipeline",
+    newProjDesc: "Pipeline de datos diseñado para la ingesta y análisis de información de comercios locales.",
+
     btnView: "Ver proyecto",
+    btnVideo: "Ver video",
+    btnRepo: "Repositorio",
     titleAbout: "Sobre mí",
     aboutText: "Soy un profesional en datos con formación orientada al desarrollo de soluciones basadas en información. Mi trabajo se centra en el procesamiento, estructuración y análisis de datos para descubrir patrones, explicar comportamientos y generar proyecciones confiables. Tengo experiencia construyendo pipelines, realizando análisis exploratorio y desarrollando modelos que convierten datos crudos en resultados claros y útiles. Me caracterizo por un enfoque riguroso, pensamiento crítico y una fuerte orientación a la resolución de problemas mediante el uso inteligente de los datos.",
     titleContact: "Contacto",
@@ -49,30 +35,17 @@ const translations = {
     heroDesc: "Data specialist focused on data analysis, engineering, and data science. I transform data into knowledge, developing solutions to understand, optimize, and anticipate real-world phenomena through information.",
     titleProjects: "Projects",
 
+    // Proyecto Azure
     proj6Title: "Azure Data Factory - Azure Databricks",
     proj6Desc: "Data Lakehouse Architecture: Retail Data Ingestion and Processing Pipeline using Azure and PySpark",
     
-    // Proyecto 5 (NUEVO)
-    proj5Title: "Azure Real-Time Monitoring Data",
-    proj5Desc: "Real-Time IoT Telemetry Ingestion and Processing Pipeline with Azure Stream Analytics and IoT Hub.",
-    
-    // Proyecto 1
-    proj1Title: "Yerba Mate Production Analysis (1970-2024)",
-    proj1Desc: "54 years of yerba mate production in Argentina: analysis, anomalies, and predictions up to 2030.",
-    
-    // Proyecto 2
-    proj2Title: "Argentine Aviation Market Analysis (2019-2025)",
-    proj2Desc: "From Health Crisis to Energy Shock: Why Argentine aviation took 5 years to take off.",
-    
-    // Proyecto 3
-    proj3Title: "Airline Data Warehouse & Analytics",
-    proj3Desc: "SQL data warehouse with Power BI dashboards built from a fictional dataset.",
-    
-    // Proyecto 4
-    proj4Title: "Real-Time Data Pipeline",
-    proj4Desc: "Pipeline that ingests real-time weather data, processes it with Python, and stores it in MySQL.",
-    
+    // Nuevo Proyecto Local Merchants
+    newProjTitle: "Local Merchants Data Pipeline",
+    newProjDesc: "Data pipeline designed for the ingestion and analysis of information from local merchants.",
+
     btnView: "View project",
+    btnVideo: "Watch video",
+    btnRepo: "Repository",
     titleAbout: "About me",
     aboutText: "I am a data professional with training geared towards developing information-based solutions. My work focuses on processing, structuring, and analyzing data to discover patterns, explain behaviors, and generate reliable projections. I have experience building pipelines, performing exploratory analysis, and developing models that turn raw data into clear and useful results. I am characterized by a rigorous approach, critical thinking, and a strong orientation to problem-solving through the intelligent use of data.",
     titleContact: "Contact",
