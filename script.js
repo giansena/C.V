@@ -16,6 +16,8 @@ const translations = {
     // Proyecto 2: Esquema Estrella
     newProjTitle: "Esquema Estrella",
     newProjDesc: "De un dataset caótico a una arquitectura ideal.",
+    btnVideoEstrella: "Ver video",
+    btnRepoEstrella: "Repositorio",
 
     // Proyecto 3: Azure
     projAzureTitle: "Azure Data Factory - Azure Databricks",
@@ -46,6 +48,8 @@ const translations = {
     // Project 2: Esquema Estrella
     newProjTitle: "Star Schema",
     newProjDesc: "From a chaotic dataset to an ideal architecture.",
+    btnVideoEstrella: "Watch video",
+    btnRepoEstrella: "Repository",
 
     // Project 3: Azure
     projAzureTitle: "Azure Data Factory - Azure Databricks",
