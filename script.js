@@ -13,9 +13,9 @@ const translations = {
     localMerchantsTitle: "Local Merchants Data Pipeline",
     localMerchantsDesc: "Pipeline de datos diseñado para la ingesta y análisis de información de comercios locales.",
 
-    // Proyecto 2: Nuevo Proyecto
-    newProjTitle: "Título del Nuevo Proyecto",
-    newProjDesc: "Descripción del nuevo proyecto.",
+    // Proyecto 2: Esquema Estrella
+    newProjTitle: "Esquema Estrella",
+    newProjDesc: "De un dataset caótico a una arquitectura ideal.",
 
     // Proyecto 3: Azure
     projAzureTitle: "Azure Data Factory - Azure Databricks",
@@ -43,9 +43,9 @@ const translations = {
     localMerchantsTitle: "Local Merchants Data Pipeline",
     localMerchantsDesc: "Data pipeline designed for the ingestion and analysis of information from local merchants.",
 
-    // Project 2: New Project
-    newProjTitle: "New Project Title",
-    newProjDesc: "Description of the new project.",
+    // Project 2: Esquema Estrella
+    newProjTitle: "Star Schema",
+    newProjDesc: "From a chaotic dataset to an ideal architecture.",
 
     // Project 3: Azure
     projAzureTitle: "Azure Data Factory - Azure Databricks",
